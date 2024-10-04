@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+    <h2>Introduzca el IBAN</h2>
+    <div class="entrada">
+      <input type="text" id="IBAN" />
+      <button id="boton">Buscar</button>
     </div>
+    <div id="contenedor" class="contenedor"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
